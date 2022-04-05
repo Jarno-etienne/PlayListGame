@@ -1,0 +1,17 @@
+{
+  "name": "main.js",
+  "version": "1.0.0",
+  "description": "electron app test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+
+
+  
+  "author": "ClosingYard",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  }
+}
