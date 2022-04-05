@@ -416,15 +416,19 @@ background-repeat: no-repeat;
     .topnav_logo {
       float: left;
       margin-left: 22%;
+
     }
+
+    
 
     .svg_logo {
       display: inline-block;
-      font: 200px 'Montserrat';
+      font: bolder 200px 'Montserrat';
       width: 300px;
       height: auto;
       margin-top: 5px;
       animation: shadow_logo 2,5s infinite linear;
+      text-shadow: 5px 5px 5px orangered;
   }
   
   .text-copy {
@@ -442,39 +446,41 @@ background-repeat: no-repeat;
     stroke: rgba(247,6,207,1);
     animation-delay: -1;
     animation: shadow_logo 2,5s infinite linear;
+    text-shadow: 5px 5px 5px red;
   }
   
   .text-copy:nth-child(2){
     stroke: red;
     animation-delay: -2s;
+    text-shadow: 5px 5px 5px orangered;
   }
   
   .text-copy:nth-child(3){
     stroke: rgb(45,226,230);
     animation-delay: -3s;
+    text-shadow: 5px 5px 5px red;
   }
   
   .text-copy:nth-child(4){
     stroke: rgb(45,226,230);
     animation-delay: -4s;
+    text-shadow: 5px 5px 5px orangered;
   }
   
   .text-copy:nth-child(5){
     stroke: purple;
     animation-delay: -5s;
+    text-shadow: 5px 5px 5px orangered;
   }
 
   .text-copy:nth-child(5){
     stroke: purple;
     animation-delay: -5s;
-    text-shadow: 10px 10px 10px orangered;
+    text-shadow: 5px 5px 5px orangered;
   }
 
-  .text-copy:nth-child(6){
-    stroke: transparent;
-    animation-delay: -5s;
-    box-shadow: 2px 2px 2px #CE5937;
-  }
+
+  
 
   
   @keyframes stroke-offset{
@@ -486,7 +492,7 @@ background-repeat: no-repeat;
   @keyframes shadow_logo {
     100% {
       background-color: red;
-      text-shadow: 20px 20px 2px #CE5937;
+    
     }
   }
 
